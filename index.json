@@ -420,6 +420,41 @@
           "engines": {}
         }
       ]
+    },
+    {
+      "name": "dsh-plugin-marketplace",
+      "title": {
+        "en": "Community Plugin Market",
+        "zh": "社区插件市场"
+      },
+      "description": {
+        "en": "Community marketplace indexing 19k GitHub repos plus 20k skills, with one-click install.",
+        "zh": "社区插件市场，索引 GitHub 上近 2 万个仓库和 2 万个技能，支持一键安装。"
+      },
+      "homepage": "https://github.com/bradeGithub/DSH-Plugins-Marketplace",
+      "repository": {
+        "url": "https://github.com/bradeGithub/DSH-Plugins-Marketplace"
+      },
+      "metadata": {
+        "category": "market",
+        "keywords": [
+          "market"
+        ],
+        "labels": [],
+        "sortKeys": {
+          "stars": 0
+        }
+      },
+      "versions": [
+        {
+          "version": "0.5.5",
+          "publishTimestamp": 1792232130,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {}
+        }
+      ]
     }
   ]
 }
