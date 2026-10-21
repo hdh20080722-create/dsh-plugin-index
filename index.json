@@ -1,0 +1,425 @@
+{
+  "format": 1,
+  "title": {
+    "en": "Curated DSH plugins",
+    "zh": "DSH 精选插件"
+  },
+  "description": {
+    "en": "A small hand-picked set of community plugins for DeepSeek Harness, each published on npm.",
+    "zh": "一份精选的 DeepSeek Harness 社区插件清单，全部发布在 npm 上。"
+  },
+  "metadata": {
+    "categories": {
+      "market": {
+        "title": {
+          "en": "Market",
+          "zh": "market"
+        }
+      },
+      "ui": {
+        "title": {
+          "en": "Ui",
+          "zh": "ui"
+        }
+      },
+      "context": {
+        "title": {
+          "en": "Context",
+          "zh": "context"
+        }
+      },
+      "agent": {
+        "title": {
+          "en": "Agent",
+          "zh": "agent"
+        }
+      },
+      "connect": {
+        "title": {
+          "en": "Connect",
+          "zh": "connect"
+        }
+      },
+      "remote": {
+        "title": {
+          "en": "Remote",
+          "zh": "remote"
+        }
+      },
+      "vision": {
+        "title": {
+          "en": "Vision",
+          "zh": "vision"
+        }
+      },
+      "ops": {
+        "title": {
+          "en": "Ops",
+          "zh": "ops"
+        }
+      }
+    },
+    "labels": {},
+    "sortKeys": {
+      "stars": {
+        "title": {
+          "en": "GitHub stars",
+          "zh": "GitHub 星标"
+        },
+        "order": "desc"
+      }
+    }
+  },
+  "plugins": [
+    {
+      "name": "dshmarket",
+      "title": {
+        "en": "Plugin Market",
+        "zh": "插件市场"
+      },
+      "description": {
+        "en": "Browse, search and one-click install community plugins inside DSH.",
+        "zh": "在 DSH 里浏览、搜索、一键安装社区插件。"
+      },
+      "homepage": "https://github.com/dsh-market/dsh-market",
+      "repository": {
+        "url": "https://github.com/dsh-market/dsh-market"
+      },
+      "metadata": {
+        "category": "market",
+        "keywords": [
+          "market"
+        ],
+        "labels": [],
+        "sortKeys": {
+          "stars": 7743
+        }
+      },
+      "versions": [
+        {
+          "version": "1.66.45",
+          "publishTimestamp": 1792518041,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {}
+        }
+      ]
+    },
+    {
+      "name": "dsh-better-sidebar",
+      "title": {
+        "en": "Better Sidebar",
+        "zh": "增强侧边栏"
+      },
+      "description": {
+        "en": "Extensible sidebar base: file tree, editor, changes, tasks and subagent pages.",
+        "zh": "可扩展的侧边栏底座：文件树、编辑器、变更、任务与子代理页面。"
+      },
+      "homepage": "https://github.com/omdsh-dev/DSH-better-sidebar",
+      "repository": {
+        "url": "https://github.com/omdsh-dev/DSH-better-sidebar"
+      },
+      "metadata": {
+        "category": "ui",
+        "keywords": [
+          "ui"
+        ],
+        "labels": [],
+        "sortKeys": {
+          "stars": 4353
+        }
+      },
+      "versions": [
+        {
+          "version": "0.28.0",
+          "publishTimestamp": 1792218651,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {}
+        }
+      ]
+    },
+    {
+      "name": "dsh-context",
+      "title": {
+        "en": "Context Insight",
+        "zh": "上下文洞察"
+      },
+      "description": {
+        "en": "Inspect and manage context usage in a session.",
+        "zh": "查看和管理会话上下文占用，找出真正吃掉 token 的部分。"
+      },
+      "homepage": "https://github.com/bowenliang123/dsh-context",
+      "repository": {
+        "url": "https://github.com/bowenliang123/dsh-context"
+      },
+      "metadata": {
+        "category": "context",
+        "keywords": [
+          "context"
+        ],
+        "labels": [],
+        "sortKeys": {
+          "stars": 2487
+        }
+      },
+      "versions": [
+        {
+          "version": "0.74.0",
+          "publishTimestamp": 1792564805,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {}
+        }
+      ]
+    },
+    {
+      "name": "@nanmicoder/dsh-agent-teams",
+      "title": {
+        "en": "Agent Teams",
+        "zh": "多智能体团队"
+      },
+      "description": {
+        "en": "Multiple agents collaborate on one task.",
+        "zh": "多个 Agent 分工协作，共同完成一个任务。"
+      },
+      "homepage": "https://github.com/NanmiCoder/dsh-agent-teams",
+      "repository": {
+        "url": "https://github.com/NanmiCoder/dsh-agent-teams"
+      },
+      "metadata": {
+        "category": "agent",
+        "keywords": [
+          "agent"
+        ],
+        "labels": [],
+        "sortKeys": {
+          "stars": 2300
+        }
+      },
+      "versions": [
+        {
+          "version": "0.1.26",
+          "publishTimestamp": 1792576499,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {}
+        }
+      ]
+    },
+    {
+      "name": "@xmanrui/dsh-im",
+      "title": {
+        "en": "IM Bridge",
+        "zh": "IM 接入"
+      },
+      "description": {
+        "en": "Bridge WeChat, Feishu, DingTalk, Telegram and more into DSH.",
+        "zh": "把微信、飞书、企微、钉钉、Telegram 等 IM 接进 DSH，随时远程对话。"
+      },
+      "homepage": "https://github.com/xmanrui/dsh-im",
+      "repository": {
+        "url": "https://github.com/xmanrui/dsh-im"
+      },
+      "metadata": {
+        "category": "connect",
+        "keywords": [
+          "connect"
+        ],
+        "labels": [],
+        "sortKeys": {
+          "stars": 2227
+        }
+      },
+      "versions": [
+        {
+          "version": "5.4.0",
+          "publishTimestamp": 1792556648,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {}
+        }
+      ]
+    },
+    {
+      "name": "dsh-pocket",
+      "title": {
+        "en": "Pocket",
+        "zh": "手机访问"
+      },
+      "description": {
+        "en": "Scan a QR code on your phone to reach the DSH running on your computer.",
+        "zh": "电脑跑 dsh web，手机扫码即同步访问。"
+      },
+      "homepage": "https://github.com/shaobeichen/dsh-pocket",
+      "repository": {
+        "url": "https://github.com/shaobeichen/dsh-pocket"
+      },
+      "metadata": {
+        "category": "remote",
+        "keywords": [
+          "remote"
+        ],
+        "labels": [],
+        "sortKeys": {
+          "stars": 1979
+        }
+      },
+      "versions": [
+        {
+          "version": "2.12.0",
+          "publishTimestamp": 1792230597,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {}
+        }
+      ]
+    },
+    {
+      "name": "@liustack/modlens",
+      "title": {
+        "en": "ModLens",
+        "zh": "视觉增强"
+      },
+      "description": {
+        "en": "Give text-only models the ability to see images.",
+        "zh": "给纯文本模型加上看图能力。"
+      },
+      "homepage": "https://github.com/liustack/modlens",
+      "repository": {
+        "url": "https://github.com/liustack/modlens"
+      },
+      "metadata": {
+        "category": "vision",
+        "keywords": [
+          "vision"
+        ],
+        "labels": [],
+        "sortKeys": {
+          "stars": 4347
+        }
+      },
+      "versions": [
+        {
+          "version": "3.27.1",
+          "publishTimestamp": 1792092100,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {}
+        }
+      ]
+    },
+    {
+      "name": "dsh-vision-router",
+      "title": {
+        "en": "Vision Router",
+        "zh": "视觉路由"
+      },
+      "description": {
+        "en": "Adds vision input to text-only agents and routes to available vision services.",
+        "zh": "为纯文本模型补上视觉输入，自动路由到可用的视觉服务。"
+      },
+      "homepage": "https://github.com/ysr666/dsh-vision-router",
+      "repository": {
+        "url": "https://github.com/ysr666/dsh-vision-router"
+      },
+      "metadata": {
+        "category": "vision",
+        "keywords": [
+          "vision"
+        ],
+        "labels": [],
+        "sortKeys": {
+          "stars": 1158
+        }
+      },
+      "versions": [
+        {
+          "version": "3.0.5",
+          "publishTimestamp": 1792516355,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {}
+        }
+      ]
+    },
+    {
+      "name": "dsh-ops",
+      "title": {
+        "en": "Ops Toolkit",
+        "zh": "运维工具箱"
+      },
+      "description": {
+        "en": "Low-level file and PTC tools for operations and troubleshooting.",
+        "zh": "底层文件与 PTC 工具，面向运维与排障。"
+      },
+      "homepage": "https://github.com/T-Auto/dsh-ops",
+      "repository": {
+        "url": "https://github.com/T-Auto/dsh-ops"
+      },
+      "metadata": {
+        "category": "ops",
+        "keywords": [
+          "ops"
+        ],
+        "labels": [],
+        "sortKeys": {
+          "stars": 3476
+        }
+      },
+      "versions": [
+        {
+          "version": "0.4.1",
+          "publishTimestamp": 1792500020,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {}
+        }
+      ]
+    },
+    {
+      "name": "dsh-whale-widget",
+      "title": {
+        "en": "Balance Whale",
+        "zh": "余额小鲸鱼"
+      },
+      "description": {
+        "en": "A DeepSeek balance widget living in the corner of the web UI.",
+        "zh": "网页右下角的 DeepSeek 余额挂件，带峰谷定价和今日用量。"
+      },
+      "homepage": "https://github.com/MeteorNOX/DeepSeek-Balance-Whale-Widget",
+      "repository": {
+        "url": "https://github.com/MeteorNOX/DeepSeek-Balance-Whale-Widget"
+      },
+      "metadata": {
+        "category": "ui",
+        "keywords": [
+          "ui"
+        ],
+        "labels": [],
+        "sortKeys": {
+          "stars": 5483
+        }
+      },
+      "versions": [
+        {
+          "version": "0.4.2",
+          "publishTimestamp": 1791721632,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {}
+        }
+      ]
+    }
+  ]
+}
